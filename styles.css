@@ -1,19 +1,24 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background-color: #1F2937;
 }
 
-header {
-    background-color: #1F2937;
-    padding-top: 10px;
+
+.header {
+    max-width: 1025px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
 }
 
 .logo {
@@ -22,15 +27,11 @@ header {
     font-weight: 600;
 }
 
-nav {
-    display: flex;
-}
-
 ul {
     list-style-type: none;
     font-size: 18px;
     display: flex;
-    gap: 1.90rem;
+    gap: 2rem;
 }
 
 a {
@@ -52,5 +53,57 @@ a:hover {
 a:active {
     color: #f4d35e;
 }
+
+.hero-container {
+    max-width: 1025px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    border: none;
+    background-color: #3882F6;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F9FAF8;
+    margin-top: 15px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.image-placeholder {
+    width: 525px;
+    height: 240px;
+    color: #E5E7EB;
+    background-color: #6D747D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right {
+    max-width: 500px;
+}
+
+
+
+
+
+
+
 
 
