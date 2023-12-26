@@ -9,7 +9,6 @@ body {
     background-color: #1F2937;
 }
 
-
 .header {
     max-width: 1025px;
     margin: auto;
@@ -158,6 +157,46 @@ img {
     width: 700px;
     margin: auto;
 }
+
+.action-container {
+    background-color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.action-background {
+    width: 1025px;
+    min-height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-text {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.sign-up-text {
+    color: #ffffff;
+}
+
+.call-button {
+    border: 2px solid white;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
 
 
