@@ -194,6 +194,17 @@ img {
     align-items: center;
 }
 
+.copyright-text {
+    color: #E5E7EB;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
 
 
 
